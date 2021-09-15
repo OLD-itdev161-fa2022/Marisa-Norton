@@ -20,15 +20,15 @@
   "homepage": "https://github.com/itdev161-fa2022/Marisa-Norton#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "config": "^3.3.1",
+    "config": "^3.3.6",
     "cors": "^2.8.5",
     "esm": "^3.2.25",
     "express": "^4.17.1",
-    "express-validator": "^6.4.0",
-    "mongoose": "^5.9.6"
+    "express-validator": "^6.12.1",
+    "mongoose": "^5.13.9"
   },
   "devDependencies": {
-    "concurrently": "^5.1.0",
-    "nodemon": "^2.0.2"
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.12"
   }
 }
