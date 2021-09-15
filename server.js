@@ -2,8 +2,6 @@ import express from 'express';
 import connectDatabase from './config/db';
 
 
-
-
 //initialize express application
 const app = express();
 
