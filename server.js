@@ -14,6 +14,7 @@ connectDatabase();
 app.use(express.json({ extended: false }));
 
 
+
 //API endpoints
 app.get('/', (req, res) =>
  res.send('http get request sent to root api endpoint')
@@ -48,4 +49,5 @@ app.post('/api/users',
 
 
 //connection listener
-app.listen(3000, () => console.log(`Express server running on port 3000`));
+const port='3000';
+app.listen(port, () => console.log(`Express server running on port 5000`));
