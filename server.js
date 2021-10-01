@@ -50,4 +50,4 @@ app.post('/api/users',
 
 //connection listener
 const port='3000';
-app.listen(port, () => console.log(`Express server running on port 5000`));
+app.listen(port, () => console.log(`Express server running on port 3000`));
