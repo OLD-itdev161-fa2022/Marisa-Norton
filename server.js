@@ -30,7 +30,7 @@ app.post('/api/users',
     check('name', 'Please enter your name')
         .not()
         .isEmpty(),
-    check('email', 'Please enter a valid emial')
+    check('email', 'Please enter a valid email')
         .isEmail(),
     check(
         'password', 
